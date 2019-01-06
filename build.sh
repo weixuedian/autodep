@@ -16,7 +16,8 @@ rm -rf *.war
 find .|grep 0.0.war|xargs -i -t mv {} /home/autodep/haohao/
 find .|grep 0.0.jar|xargs -i -t mv {} /home/autodep/haohao/
 echo "移动文件完毕"
-
-echo "结束执行"
+sh ./deploy/haohao-api-test-shell.sh 
+"启动docker 中................................"
+echo "执行完毕"
 
 
