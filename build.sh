@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
-git clone https://gitlab.com/haohaoteam/haohao.git
+if [ ! -d "/home/autodep/haohao/" ];then
+ git clone git@gitlab.com:haohaoteam/haohao.git
+else
+ echo "文件夹已经存在"
+ cd hoahao
+ pwd
+fi
+
+
