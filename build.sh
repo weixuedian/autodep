@@ -6,6 +6,9 @@ else
  git pull
 fi
 echo "开始执行中...."
+cd /home/autodep/haohao
+git pull
+echo "更新完毕"
 
 echo "结束执行"
 
