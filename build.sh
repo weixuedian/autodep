@@ -4,7 +4,7 @@ if [ ! -d "/home/autodep/haohao/" ];then
 else
  echo "文件夹已经存在"
  cd hoahao
- pwd
+ git pull
 fi
 
 
