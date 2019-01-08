@@ -16,6 +16,6 @@ rm -rf *.war
 find .|grep 0.0.war|xargs -i -t mv {} /home/autodep/monitor/
 find .|grep 0.0.jar|xargs -i -t mv {} /home/autodep/monitor/
 echo "移动文件完毕"
-sh ./deploy/monitor-test-shell.sh.sh 
+sh ./deploy/monitor-test-shell.sh 
 "启动docker 中................................"
 echo "执行完毕"
