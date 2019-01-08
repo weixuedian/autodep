@@ -5,7 +5,7 @@ else
  echo "文件夹已经存在"
 fi
 echo "开始执行中...."
-cd /home/autodep/haohao
+cd /home/autodep/monitor
 git pull
 echo "资源完毕更新完毕"
 
