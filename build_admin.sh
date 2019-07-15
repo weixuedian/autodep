@@ -17,5 +17,5 @@ find .|grep 0.0.war|xargs -i -t mv {} /home/autodep/haohao/
 find .|grep 0.0.jar|xargs -i -t mv {} /home/autodep/haohao/
 echo "移动文件完毕"
 sh ./deploy/haohao-admin-test-shell.sh 
-"启动docker 中................................"
+echo "启动docker 中................................"
 echo "执行完毕"
