@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-if [ ! -d "/home/" ];then
+if [ ! -d "/home/deploy/haohao" ];then
+ mkdir /home/deploy/
+ cd /home/deploy/
  git clone git@gitlab.com:haohaoteam/haohao.git
 else
  echo "文件夹已经存在"
 fi
 echo "开始执行中...."
-cd /home/haohao
+cd /home/deploy/haohao
 git pull
 echo "资源完毕更新完毕"
 
